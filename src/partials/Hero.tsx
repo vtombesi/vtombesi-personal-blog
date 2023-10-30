@@ -23,7 +23,7 @@ const Hero = () => (
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="./assets/images/avatar.svg"
           alt="Avatar image"
           loading="lazy"
         />
@@ -32,7 +32,7 @@ const Hero = () => (
         <>
           <a href="/">
             <HeroSocial
-              src="/assets/images/github-icon.png"
+              src="./assets/images/github-icon.png"
               alt="Github icon"
             />
           </a>
