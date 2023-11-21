@@ -23,6 +23,21 @@ const {
     <meta name='description' content={description} />
     <meta name='author' content={AppConfig.author} />
 
+    <script
+      type='text/partytown'
+      src='https://www.googletagmanager.com/gtag/js?id=G-H0DEHNR6W5'
+    >
+
+    </script>
+    <script type='text/partytown'>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-H0DEHNR6W5');
+    </script>
+
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
   </head>
