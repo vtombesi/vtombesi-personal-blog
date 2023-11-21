@@ -9,7 +9,6 @@ import { astroImageTools } from 'astro-imagetools';
 export default defineConfig({
   // base: '.', // Set a path prefix.
   site: 'https://vtombesi.github.io',
-  base: '/vtombesi-personal-blog',
   trailingSlash: 'always', // Use to always append '/' at end of url
   markdown: {
     shikiConfig: {
