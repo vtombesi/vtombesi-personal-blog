@@ -6,6 +6,10 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 
+import { AppConfig } from '@/utils/AppConfig';
+
+const { title } = AppConfig;
+
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
@@ -28,7 +32,7 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="Valentino's Blog"
+          name={title}
         />
       </a>
 

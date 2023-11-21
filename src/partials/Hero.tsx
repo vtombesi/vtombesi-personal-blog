@@ -1,9 +1,11 @@
 import {
   GradientText,
-  HeroAvatar,
   HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
+
+import { FacePlayableAvatar } from './FacePlayableAvatar';
+import { HeroAvatar } from './HeroAvatar';
 
 const Hero = () => (
   <Section>
@@ -20,14 +22,7 @@ const Hero = () => (
           <br />
         </>
       }
-      avatar={
-        <img
-          className="h-80 w-64"
-          src="./assets/images/avatar.svg"
-          alt="Avatar image"
-          loading="lazy"
-        />
-      }
+      avatar={<FacePlayableAvatar></FacePlayableAvatar>}
       socialButtons={
         <>
           <a href="/">
